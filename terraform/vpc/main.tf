@@ -3,7 +3,7 @@ provider "aws" {
 }
 terraform {
   backend "s3" {
-    bucket         = "Ramsy000clea3"  # Use a globally unique name
+    bucket         = "ramsy007"  # Use a globally unique name
     key            = "vpcactions/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
