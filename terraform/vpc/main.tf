@@ -3,8 +3,8 @@ provider "aws" {
 }
 terraform {
   backend "s3" {
-    bucket         = "ramsy007"  # Use a globally unique name
-    key            = "vpcactions/terraform.tfstate"
+    bucket         = "ramsyexam"  # Use a globally unique name
+    key            = "vpcexam/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
     dynamodb_table = "terraform-locks"
